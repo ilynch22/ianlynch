@@ -107,6 +107,10 @@ html {
     cursor: pointer;
 }
 
+a {
+    color:#e76f51;
+}
+
 a.hover {
     text-decoration: none;
     color: #e76f51;
