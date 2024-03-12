@@ -98,6 +98,7 @@ html {
     background-position:50% 100%;
     background-repeat: no-repeat;
     transition: .3s linear, background-size .3s .2s linear;
+    color: #e76f51;
 }
 
 .hover:hover {
@@ -108,6 +109,7 @@ html {
 
 a.hover {
     text-decoration: none;
+    color: #e76f51;
 }
 
 a.link {
