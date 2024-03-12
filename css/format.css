@@ -105,9 +105,10 @@ html {
     background-size: 60% .05em;
     background-position: 10% 100%, 90% 100%;
     cursor: pointer;
+    color: #e76f51;
 }
 
-a {
+.nav-header a {
     color:#e76f51;
 }
 
