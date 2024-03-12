@@ -1,0 +1,138 @@
+html {
+    background-color: #264653;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #e76f51;
+}
+
+.name-contact {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.name-contact .name {
+    align-self: center;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.name-contact .email {
+
+    align-self: center;
+    border-left: 2px solid #e9c56a42;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.name-contact .phone-number {
+    align-self: center;
+    border-left: 2px solid #e9c56a42;
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    outline: 5px solid #287272;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #e76f51;
+}
+
+.nav-header {
+    align-self: center;
+    padding: 5px;
+    
+}
+
+.nav-header + .nav-header {
+    border-left: 2px solid #e76f5148;
+    border-radius: 1px;
+}
+
+.nav-header:first-child {
+    padding-left: 10px;
+}
+
+.nav-header:last-child {
+    padding-right: 10px;
+}
+
+.download-cv {
+    align-self: center;
+    outline: 5px solid #287272;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #e76f51;
+}
+
+.hover {
+    --c:linear-gradient(#e76f51 0 0);
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: 0% .05em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .3s linear, background-size .3s .2s linear;
+}
+
+.hover:hover {
+    background-size: 60% .05em;
+    background-position: 10% 100%, 90% 100%;
+    cursor: pointer;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+a.link {
+    text-decoration: none;
+    color: #E9C46A;
+}
+
+a.hover:visited {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content:center;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    font-family: 'Prata';
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.content {
+    min-height: 85vh;
+}
+

@@ -1,0 +1,79 @@
+.company {
+    display: grid;
+    grid-template-columns: 0.5fr 1.3fr 1fr 3fr;
+    color: #E9C46A;
+    font-size: 18px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.company#jimmyjohns {
+    margin-top: 3%;
+    justify-items: center;
+}
+
+.company-name {
+    justify-self: center;
+    align-self: center;
+    border-top: 1px solid #E9C46A;
+    border-bottom: 1px solid #E9C46A;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.job-title {
+    align-self: center;
+    justify-self: center;
+    border-top: 1px solid #E9C46A;
+    border-bottom: 1px solid #E9C46A;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.company-title {
+    align-self: center;
+    justify-self: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
+
+.job-description {
+    margin-right: 2.5%;
+    height: 170px;
+    align-self: center;
+    border-top: 1px solid #E9C46A;
+    border-bottom: 1px solid #E9C46A;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+.intel-title-bin {
+    display: grid;
+    gap: 50px;
+}
+
+.intel-time-bin {
+    display: grid;
+    gap: 50px;
+}
+
+.intel-description-bin {
+    display: grid;
+    gap: 50px;
+}
+
+.company-bin {
+    display: grid;
+    gap: 50px;
+}
+
+.company#intel {
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}

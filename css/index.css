@@ -1,0 +1,111 @@
+.eye-catcher {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 2%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+img#headshot {
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+    outline: 1px solid #E9C46A;
+}
+
+.headshot-aside {
+    align-self: center;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    color: #E9C46A;
+}
+
+span#hs-name {
+    font-size: 64px;
+    letter-spacing: .75em;
+    line-height: 2.5em;
+}
+span#hs-info {
+    font-size: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: .01fr 1fr 3fr;
+    margin-right: 2.5%;
+    box-sizing: border-box;
+}
+
+.section-header {
+    align-self: center;
+    justify-self: center;
+    font-size: 28px;
+    color: #E9C46A;
+    width: 60%;
+    letter-spacing: .25em;
+}
+
+.section {
+    align-self: center;
+    color: #E9C46A;
+    border-bottom: 1px solid #E9C46A;
+    border-top: 1px solid #E9C46A;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    font-size: 20px;
+    line-height: 65px;
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    
+}
+
+span#hello {
+    font-size: 28px;
+}
+
+span#bio-name {
+    font-size: 24px;
+    text-decoration: underline 1px;
+}
+
+.section#who-i-am {
+    margin-top: 10vh;
+    border-top: 2px solid #E9C46A;
+    
+}
+
+.section#what-i-do {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section#what-ive-done {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    font-size: 18px;
+}
+
+ul#what-ive-done-ul {
+    list-style-position: outside;
+}
+
+#what-ive-done-header {
+    font-size: 30px;
+    border-bottom: 2px solid #E9C46A;
+    
+}
+
+.section#references {
+    margin-bottom: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li {
+    line-height: 30px;
+    list-style-position: outside;
+}
+
+li +li {
+    margin-top: 50px;
+}
