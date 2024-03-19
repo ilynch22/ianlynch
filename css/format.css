@@ -17,36 +17,55 @@ html {
     color: #e76f51;
 }
 
-.name-contact {
+.bot-bar {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #e76f51;
+}
+
+.contact-1 {
     align-self: center;
-    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+.contact-1 + .contact-1 {
+    border-left: 2px solid #e76f5148;
+    border-radius: 1px;
+}
+
+.contact-1:first-child {
     padding-left: 10px;
+}
+
+.contact-1:last-child {
     padding-right: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
 }
 
-.name-contact .name {
+
+.nav-header {
     align-self: center;
-    border-radius: 1px;
     padding: 5px;
+    
 }
 
-.name-contact .email {
-
-    align-self: center;
-    border-left: 2px solid #e9c56a42;
+.nav-header + .nav-header {
+    border-left: 2px solid #e76f5148;
     border-radius: 1px;
-    padding: 5px;
 }
 
-.name-contact .phone-number {
-    align-self: center;
-    border-left: 2px solid #e9c56a42;
-    border-radius: 1px;
-    padding: 5px;
+.nav-header:first-child {
+    padding-left: 10px;
+}
+
+.nav-header:last-child {
+    padding-right: 10px;
 }
 
 .nav-bar {
@@ -77,17 +96,6 @@ html {
 
 .nav-header:last-child {
     padding-right: 10px;
-}
-
-.download-cv {
-    align-self: center;
-    outline: 5px solid #287272;
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    color: #e76f51;
 }
 
 .hover {
@@ -127,19 +135,7 @@ a.hover:visited {
     text-decoration: none;
 }
 
-.footer {
-    display: flex;
-    justify-content:center;
-    margin-top: 1%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 1%;
-    font-family: 'Prata';
-    font-size: 24px;
-    letter-spacing: 2px;
-}
-
 .content {
-    min-height: 85vh;
+    min-height: 80vh;
 }
 

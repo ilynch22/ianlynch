@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2%;
+    padding-bottom: 22.5%;
 }
 
 .skills-left {
@@ -35,10 +36,16 @@
 .skill-body {
     padding-top: 3%;
     height: 400px;
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 20px;
 }
 
 li + li {
     margin-left: 20px;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
 }

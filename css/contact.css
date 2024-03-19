@@ -1,0 +1,18 @@
+.contact-page {
+    border: 1px solid #E9C46A;
+    border-radius: 40px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 22px;
+    color: #E9C46A;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+
+img {
+    width: 10%;
+}
