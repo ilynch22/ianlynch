@@ -47,5 +47,5 @@ li + li {
 .skill {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 30%;
+    width: 50%;
 }
