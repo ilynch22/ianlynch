@@ -1,0 +1,63 @@
+* {
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+
+}
+
+.parent {
+   display: inline-flex;
+   grid-template-columns: 1fr 1fr;
+}
+
+body {
+   background-color:brown;
+}
+
+.title {
+   font-style: bold;
+   font-size: 80px;
+   background-color: rgb(103, 224, 139);
+   padding: 10px;
+}
+
+img {
+   width: 1000px;
+   height: 500px;
+}
+
+.home-button {
+   background-color: rgb(103, 224, 139);
+   font-size: 100px;
+   font-size: 80px;
+}
+
+.description {
+   background-color: beige;
+   font-size: 50px;
+   font-style: italic;
+   margin-left: 20px;
+   padding-top: 200px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.recipe {
+   background-color: beige;
+   font-size: 20px;
+   padding-bottom: 5px;
+}
+
+.recipe-header-1 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 35px;
+   text-decoration: underline;
+}
+
+.recipe-header-2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+
