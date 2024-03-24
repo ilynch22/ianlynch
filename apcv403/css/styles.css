@@ -2,7 +2,6 @@ html {
     background-color: #264653;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
-    color: #E9C46A;
 }
 
 .top-bar {
@@ -18,14 +17,94 @@ html {
     color: #e76f51;
 }
 
-.header {
-    color: #E9C46A;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
+.nav-header {
+    align-self: center;
+    padding: 5px;
+    
+}
+
+.nav-header + .nav-header {
+    border-left: 2px solid #e76f5148;
+    border-radius: 1px;
+}
+
+.nav-header:first-child {
+    padding-left: 10px;
+}
+
+.nav-header:last-child {
+    padding-right: 10px;
+}
+
+.nav-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
+    outline: 5px solid #287272;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #e76f51;
+}
+
+.nav-header {
+    align-self: center;
+    padding: 5px;
+    
+}
+
+.nav-header + .nav-header {
+    border-left: 2px solid #e76f5148;
+    border-radius: 1px;
+}
+
+.nav-header:first-child {
+    padding-left: 10px;
+}
+
+.nav-header:last-child {
+    padding-right: 10px;
+}
+
+.hover {
+    --c:linear-gradient(#e76f51 0 0);
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: 0% .05em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .3s linear, background-size .3s .2s linear;
+    color: #e76f51;
+}
+
+.hover:hover {
+    background-size: 60% .05em;
+    background-position: 10% 100%, 90% 100%;
+    cursor: pointer;
+    color: #e76f51;
+}
+
+.nav-header a {
+    color:#e76f51;
+}
+
+a.hover {
+    text-decoration: none;
+    color: #e76f51;
+}
+
+a.link {
+    text-decoration: none;
+    color: #e76f51;
+}
+
+a.hover:visited {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+.content {
+    min-height: 60vh;
 }
 
 .title {
@@ -44,16 +123,7 @@ html {
     text-align: center;
     width: 30%;
     margin-top: 2%;
-}
-
-#home-link, a:link, a:visited {
-    background-color: #264653;
-    border: 2px solid #E9C46A;
-    border-radius: 10px;
-    box-shadow: 5px 5px #E9C46A;
     color: #E9C46A;
-    text-decoration: none;
-    padding: 7.5px;
 }
 
 .project-grid {
@@ -62,6 +132,7 @@ html {
     grid-column: 5;
     margin: auto;
     margin-top: 3%;
+    gap: 2%;
 }
 
 .project {
@@ -89,8 +160,14 @@ html {
     text-align: justify;
 }
 
-#project-link {
-    background-color: #264653;
-    box-shadow: 5px 5px #264653;
-    border: 2px solid #264653;
+.project-grid > a:visited {
+    text-decoration: none;
+}
+
+.project-grid > a:link {
+    text-decoration: none;
+}
+
+.content {
+    margin-bottom: 5%;
 }
