@@ -1,14 +1,14 @@
 .eye-catcher {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding-top: 2%;
+    margin-top: 5vh;
     font-family:'Courier New', Courier, monospace;
 }
 
 img#headshot {
     align-self: center;
     justify-self: center;
-    width: 80%;
+    width: 70%;
     outline: 1px solid #E9C46A;
 }
 
@@ -20,7 +20,7 @@ img#headshot {
 }
 
 span#hs-name {
-    font-size: 64px;
+    font-size: 54px;
     letter-spacing: .75em;
     line-height: 2.5em;
 }
@@ -30,8 +30,8 @@ span#hs-info {
 
 .content {
     display: grid;
-    grid-template-columns: .01fr 1fr 3fr;
-    margin-right: 2.5%;
+    grid-template-columns: .01fr 1.5fr 3fr;
+    margin-right: 5%;
     box-sizing: border-box;
 }
 
@@ -49,10 +49,10 @@ span#hs-info {
     color: #E9C46A;
     border-bottom: 1px solid #E9C46A;
     border-top: 1px solid #E9C46A;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
-    font-size: 20px;
-    line-height: 65px;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    font-size: 18px;
+    line-height: 55px;
     font-family:'Courier New', Courier, monospace;
     display: inline-block;
     
@@ -92,11 +92,10 @@ ul#what-ive-done-ul {
 #what-ive-done-header {
     font-size: 30px;
     border-bottom: 2px solid #E9C46A;
-    
 }
 
 .section#references {
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

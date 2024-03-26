@@ -1,13 +1,15 @@
 .content {
     color: #E9C46A;
     box-sizing: border-box;
+    height: 80vh;
 }
 
 .skills-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .2fr 1fr 1fr .2fr;
     margin-top: 2%;
     padding-bottom: 22.5%;
+    text-align: justify;
 }
 
 .skills-left {
