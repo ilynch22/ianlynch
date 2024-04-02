@@ -1,0 +1,42 @@
+html {
+    background-image: url("matrix1.gif");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content {
+    /* spacing */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* spacing */
+    background: black;
+    color: green;
+    outline: 1px green solid;
+    min-height: 90vh;
+}
+
+#header {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+#myForm {
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    background: black;
+    border: black;
+    outline: 1px solid green;
+    line-height: 30px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
