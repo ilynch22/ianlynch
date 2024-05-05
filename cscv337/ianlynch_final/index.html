@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> Store </title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="text/javascript" src="scripts/shopping-cart.js"></script>
+</head>
+<body>
+    <div class="top">
+        <ul>
+            <li> <a href=""> Home </a> </li>
+            <li> <a href=""> Gifts </a> </li>
+            <li> <a href=""> Top Selling </a> </li>
+            
+        </ul>
+        <ul>
+            <li> <a href=""> Account </a> </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="item" style="visibility: hidden;"></div>
+        <div class="item" id="strawberry">
+            <img src="media/strawberry.jpg">
+            <div class="item-text"> Strawberries <br> $3.99 </div>
+            <div class="tally">
+                <input type="button" onclick="decrement()" value="Minus One" >
+                <div id="total"> 0 </div>
+                <input type="button" onclick="increment()" value="Add One">
+            </div>
+        </div>
+        <div class="item" style="visibility: hidden;"></div>
+    </div>
+
+    <div class="bot">
+        <div class="invis"></div>
+        <ul>
+            <li> <input type="button" onclick="getTotal()" value="Update Total Price" id="get-total"> </li>
+            <li> <div id="grand-total"> $0  </div></li>
+        </ul>
+    </div>
+</body>
+</html>
